@@ -3,20 +3,29 @@
 Data on rocky shore environments will be collected by various volunteers and regional bodies. The data in the form of photographs along transects on the shore will be collected, uploaded to a server and made available on a website. 
 
 ## Data Collection Procedures
+Standard operating procedures for the collection of the data are desc ribed.
 
 ## Data Management Description
 
-Each photo must be tagged with the time and position (date, time, latitude and longitude from GPS), transect number, position on the transect, data collector name, affiliation, equipment used, exposure settings. 
+Standard procedures are described for the ingest, processing storage and access of the images comprising the data.
 
-Photos are uploaded to the server.
 
-Each photo is assigned a UUID. 
+1. Each photo must be tagged with the time and position (date, time, latitude and longitude from GPS), transect number, position on the transect, data collector name, affiliation, equipment used, exposure settings., by the data producer.  A table should be provided with the complete list of metadata entries required.
 
-Each set of photos is assigned a group UUID, and a record created linking individual UUIDs to the group ID. 
 
-Metadata tagged with UUIDs are added to catalogue.  
+2. Photos and metadata are uploaded to the server.
+
+3. Each photo is assigned a UUID. 
+
+4. Each set of photos is assigned a group UUID, and a record created linking individual UUIDs to the group ID. 
+
+5. Metadata tagged with UUIDs are added to catalogue.  
+6. Catalog and Data are accessed through a user interface on a server accessing the catalog and database. 
 
 ### Registry 
 
+A description of the procedure for registering data producers and equipment is required.
+
 ### Catalogue
 
+A description of the catalog and how to access it is required. 
